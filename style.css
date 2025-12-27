@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+        position: fixed;
+        width: 100%;
+        padding: 17px;
+        flex-wrap: wrap;
+}
+.w80{ 
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 33px;
+    /* background-color: aqua; */
+    padding: 17px;
+  
+
+}
+ul{
+    display: flex;
+    gap: 33px;
+    position: relative;
+    right: 650px;
+    align-items: center;
+    top: 14px;
+    
+    
+}
+h1 a{
+    color: #252B42;
+}
+ul li a{
+  
+    color: #737373;
+}
+a{
+    text-decoration: none;
+}
+.waqar{
+    display: flex;
+    flex-direction: row;
+    gap: 163px;
+}
+.waqar a{
+    color: #96BB7C;
+}
+li{
+      list-style: none;
+}
+.waqar button{
+    padding: 15px 25px;
+    position: relative;
+    bottom: 14px;
+    background-color: #96BB7C;
+    color: white;
+
+}
